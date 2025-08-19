@@ -1,4 +1,4 @@
-# OSINT - Money Money Money (12 solves / 499 points)
+# OSINT - Money Money Money 
 **Description :** *I have some money hidden for you inside the zip folder. It's all yours but you need to find how I got this money.*
 
 **Hint** (given because of the low number of solves) : *If you have reached the transactions site, maybe try to find a conversation in the correct transaction.*
