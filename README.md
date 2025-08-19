@@ -28,17 +28,7 @@ So we do have another image inside this archive but we can't access it for the m
  
  The previous check on this image weren't useful here so the next step was to try to find where it came from, to what it was related. By using some search engine that allows to search by image (Google, Yandex etc), I could find that is in fact the logo of **Etherscan** which basically allows you to explore the Ethereum blockchain. The new question being : what are we going to look for here ??
 
-Maybe it's time to open the image that we've been given to see what is in it. Once opened, we obtain the following code :
-<p align="center">
-  <img src="images/richies.png">
-</p>
- 
- At first, I had no clue what it could be until I realized it was packed by 1 to 4 occurences of the same number each time and remembered the good **old phone layout** that looked like this :
-<p align="center">
-  <img src="images/oldbutgold.png">
-</p>
- 
-In case you didn't know that, each number is linked to 3 to 4 letters and by clicking on the same number multiple times in a row, you could access theses differents letters. For instance, the *1* is linked to *a*, *b* and *c* ; click once for the *a*, twice for the *b* etc. You can quickly decode manually or by using some online tool. Anyway, you'll obtain the following plaintext :
+Maybe it's time to open the image that we've been given to see what is in it. Once opened, we obtain plaintext :
  <center>IN THE LAST YEAR I INVESTED IN HUNDRED DOGECOIN GOLD AND GOT HUGE PROFITS HAVE A LOOK AT SOME OF MY TRANSACTIONS IF YOU ARE STUCK YOU HAVE EVERYTHING YOU NEED LOOK CLOSELY</center>
 
 So, we got some useful information here : we'll be focusing on the Dogecoin Gold looking for some transactions done last year for a hundred Dogecoins Gold. Let's also keep in mind the hint that were given initially telling us to try to find a conversation linked to some transaction.
